@@ -1,0 +1,134 @@
+@media screen and (max-width: 900){
+    .header_logo img {
+        width: 200px;
+    }
+
+    .first-screen {
+        max-width: 1000px;
+    }
+
+    .wrapper {
+        min-width: none;
+    }
+
+    .header_nav__wrap {
+        column-gap: 25px;
+    }
+
+    .header_top {
+        column-gap: 20px;
+    }
+
+    .nav_item a {
+        font-size: 12px; 
+        white-space: nowrap;
+}
+
+.first-screen_right__title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 176px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.first-screen_right__title span {
+    display: block;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3298F2;
+    color: transparent;
+    font-size: 90px;
+}
+
+.first-screen_right__school {
+    font-size: 40px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        max-width: 900px;
+    }
+
+
+    .video{
+        display: block;
+    }
+
+    .header_top {
+        column-gap: 20px;
+        margin-left: 15px;
+    }
+
+    .header_nav {
+        position: absolute;
+        width: 100vw;
+        background: #3298F2;
+        left: -150%;
+        flex-direction: column;
+        height: 93vh;
+        top: 93px;
+        transition: left 1s;
+        row-gap: 25px;
+        padding-top: 50px;
+        z-index: 9999;
+        transition: left 1s;
+    
+
+    }
+
+    .header_nav a {
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .active .header_nav {
+        left: 0;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .header_logo img {
+        width: 200px;
+    }
+
+    .button-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+
+    .btn {
+        padding: 0 25px;
+    }
+
+    .play {
+        display: none;
+    }
+
+
+    .mobile_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-screen_left {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .first-screen_right{
+        display: none;
+    }
+
+    
+}

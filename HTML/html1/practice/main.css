@@ -1,0 +1,38 @@
+body{
+    background: url('https://images-na.ssl-images-amazon.com/images/I/81DVOkvlmbL.jpg');
+}
+
+h1{ 
+    color: crimson;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    color: rgb(126, 2, 2);
+}
+p{
+  background-color: cornsilk;  
+  height: fit-content;  
+  width: 800px;
+  margin: 20px auto 20px auto;
+  font-size: 25px;
+  border:3px outset silver;
+}
+img{
+    display: block;
+    margin: 10px auto 10px auto;
+    width: auto;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+ul{
+    font-style: none;
+    width: 100px;
+    margin: 5px auto 5px auto;
+    background-color: royalblue;
+    border-radius: 8px;
+}
